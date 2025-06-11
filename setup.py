@@ -16,7 +16,7 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         "certbot>=1.0.0",
-        "requests>=2.34.4",
+        "requests>=2.20.0",
         "zope.interface",
     ],
     entry_points={
