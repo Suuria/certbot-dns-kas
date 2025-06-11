@@ -282,6 +282,7 @@ class _KASClient:
             # Simple text parsing approach
             if record_name in response and "TXT" in response and record_value in response:
                 import re
+
                 # Look for record_id patterns
                 pattern = r'<key[^>]*>record_id</key><value[^>]*>([^<]+)</value>'
                 matches = re.findall(pattern, response)
@@ -386,6 +387,7 @@ class _KASClient:
         domains = []
         try:
             import re
+
             # Look for domain_name values
             pattern = r'<key[^>]*>domain_name</key><value[^>]*>([^<]+)</value>'
             matches = re.findall(pattern, response)
