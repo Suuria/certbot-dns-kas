@@ -1,0 +1,1 @@
+"""KAS DNS Authenticator plugin for Certbot."""

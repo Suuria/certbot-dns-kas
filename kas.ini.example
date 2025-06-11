@@ -1,0 +1,13 @@
+# KAS API credentials for certbot-dns-kas plugin
+# 
+# Copy this file to kas.ini and fill in your actual credentials
+# Make sure to secure the file: chmod 600 kas.ini
+
+# Your KAS login name
+dns_kas_login = your_login_here
+
+# Authentication type (usually 'plain')
+dns_kas_authtype = plain
+
+# Your KAS password or API key
+dns_kas_authdata = your_password_here
