@@ -18,12 +18,11 @@ Credentials file format (kas.ini):
 import logging
 import time
 import xml.etree.ElementTree as ET
-from typing import Optional, List, Dict, Any
+from typing import Any, Dict, List, Optional
 
 import requests
 import zope.interface
-from certbot import errors
-from certbot import interfaces
+from certbot import errors, interfaces
 from certbot.plugins import dns_common
 
 logger = logging.getLogger(__name__)

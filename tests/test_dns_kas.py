@@ -1,9 +1,9 @@
 import unittest
 from unittest.mock import Mock, patch
-import pytest
 
-from certbot_dns_kas.dns_kas import Authenticator, _KASClient
+import pytest
 from certbot import errors
+from certbot_dns_kas.dns_kas import Authenticator, _KASClient
 
 
 class TestKASAuthenticator(unittest.TestCase):
