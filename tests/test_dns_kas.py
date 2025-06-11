@@ -3,6 +3,7 @@ from unittest.mock import Mock, patch
 
 import pytest
 from certbot import errors
+
 from certbot_dns_kas.dns_kas import Authenticator, _KASClient
 
 
